@@ -1,0 +1,337 @@
+/* line 3, ../sass/_layout.scss */
+div#forbes-landing {
+  width: 1920px;
+  height: 100%;
+  background-color: white;
+  margin: auto;
+}
+/* line 9, ../sass/_layout.scss */
+div#forbes-landing div.content {
+  width: 1142px;
+  margin: auto;
+}
+/* line 14, ../sass/_layout.scss */
+div#forbes-landing h1, div#forbes-landing h2, div#forbes-landing h3, div#forbes-landing h4, div#forbes-landing p, div#forbes-landing li {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+}
+/* line 18, ../sass/_layout.scss */
+div#forbes-landing h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+/* line 23, ../sass/_layout.scss */
+div#forbes-landing h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+/* line 28, ../sass/_layout.scss */
+div#forbes-landing h3 {
+  font-size: 17px;
+  font-weight: 400;
+}
+/* line 33, ../sass/_layout.scss */
+div#forbes-landing h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+/* line 40, ../sass/_layout.scss */
+div#forbes-landing p {
+  font-size: 20px;
+  font-weight: 400;
+}
+/* line 45, ../sass/_layout.scss */
+div#forbes-landing div.red-line {
+  height: 18px;
+  width: 68px;
+  border-bottom: 1px solid #c32026;
+}
+/* line 51, ../sass/_layout.scss */
+div#forbes-landing div.email-form {
+  height: 109px;
+  width: 1082px;
+  margin: auto;
+  margin-top: 60px;
+  background: rgba(0, 0, 0, 0.5);
+}
+/* line 58, ../sass/_layout.scss */
+div#forbes-landing div.email-form div.form-box {
+  height: 58px;
+  width: 225px;
+  border: 2px solid #481a1d;
+  border-radius: 5px;
+  border-left: 4px solid #c32026;
+  margin: 24px 0 0 22px;
+  display: inline-block;
+}
+/* line 68, ../sass/_layout.scss */
+div#forbes-landing div.email-form div.red-button {
+  height: 39px;
+  width: 269px;
+  background-color: #c32026;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 24px 22px 0 0;
+  float: right;
+  text-align: center;
+  padding-top: 23px;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: white;
+}
+/* line 86, ../sass/_layout.scss */
+div#forbes-landing div.top-banner {
+  background-image: url("../img/top-banner.jpg");
+  width: 100%;
+  height: 750px;
+}
+/* line 92, ../sass/_layout.scss */
+div#forbes-landing div.top-banner div.content img {
+  margin-top: 30px;
+  float: left;
+}
+/* line 98, ../sass/_layout.scss */
+div#forbes-landing div.top-banner div.content ul li {
+  float: right;
+  color: white;
+  font-weight: 700px;
+  font-size: 16px;
+  margin: 49px 0 0 25px;
+}
+/* line 107, ../sass/_layout.scss */
+div#forbes-landing div.top-banner div.content h1 {
+  color: white;
+  clear: both;
+  text-align: center;
+  padding-top: 161px;
+}
+/* line 113, ../sass/_layout.scss */
+div#forbes-landing div.top-banner div.content h1 span {
+  color: #c32026;
+}
+/* line 118, ../sass/_layout.scss */
+div#forbes-landing div.top-banner div.content p {
+  color: white;
+  text-align: center;
+  margin-top: 37px;
+}
+/* line 124, ../sass/_layout.scss */
+div#forbes-landing div.top-banner div.content p.line-2 {
+  margin-top: 10px;
+}
+/* line 128, ../sass/_layout.scss */
+div#forbes-landing div.top-banner div.content div.signup-paragraph {
+  margin-top: 24px;
+}
+/* line 131, ../sass/_layout.scss */
+div#forbes-landing div.top-banner div.content div.signup-paragraph p {
+  font-size: 20px;
+  weight: 400;
+  font-style: italic;
+  margin-top: 9px;
+}
+/* line 141, ../sass/_layout.scss */
+div#forbes-landing div.research {
+  background-color: #f7f8fa;
+  height: 582px;
+  width: 100%;
+}
+/* line 146, ../sass/_layout.scss */
+div#forbes-landing div.research div.research-list {
+  width: 381px;
+  float: left;
+}
+/* line 150, ../sass/_layout.scss */
+div#forbes-landing div.research div.research-list h2.h2-top {
+  margin-top: 87px;
+}
+/* line 154, ../sass/_layout.scss */
+div#forbes-landing div.research div.research-list h2.h2-bottom {
+  margin-top: 8px;
+}
+/* line 158, ../sass/_layout.scss */
+div#forbes-landing div.research div.research-list ul {
+  margin: 46px 0 0 2px;
+}
+/* line 161, ../sass/_layout.scss */
+div#forbes-landing div.research div.research-list ul li {
+  clear: both;
+}
+/* line 164, ../sass/_layout.scss */
+div#forbes-landing div.research div.research-list ul li img {
+  float: left;
+  margin: 0;
+}
+/* line 168, ../sass/_layout.scss */
+div#forbes-landing div.research div.research-list ul li div {
+  float: left;
+  margin: -3px 0 0 18px;
+}
+/* line 172, ../sass/_layout.scss */
+div#forbes-landing div.research div.research-list ul li div h4, div#forbes-landing div.research div.research-list ul li div p {
+  font-size: 16px;
+  margin: 0;
+}
+/* line 177, ../sass/_layout.scss */
+div#forbes-landing div.research div.research-list ul li div p {
+  margin: 17px 0 58px 0;
+}
+/* line 186, ../sass/_layout.scss */
+div#forbes-landing div.research img {
+  margin: 111px 0 0 131px;
+}
+/* line 191, ../sass/_layout.scss */
+div#forbes-landing div.customers {
+  height: 911px;
+}
+/* line 194, ../sass/_layout.scss */
+div#forbes-landing div.customers h2 {
+  text-align: center;
+  margin-top: 78px;
+}
+/* line 199, ../sass/_layout.scss */
+div#forbes-landing div.customers div.red-line {
+  margin: auto;
+}
+/* line 203, ../sass/_layout.scss */
+div#forbes-landing div.customers h3 {
+  text-align: center;
+  margin-top: 17px;
+}
+/* line 208, ../sass/_layout.scss */
+div#forbes-landing div.customers img {
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+}
+/* line 214, ../sass/_layout.scss */
+div#forbes-landing div.customers div.customer-quote {
+  height: 425px;
+  width: 380px;
+  float: left;
+  margin-top: 72px;
+}
+/* line 220, ../sass/_layout.scss */
+div#forbes-landing div.customers div.customer-quote h4, div#forbes-landing div.customers div.customer-quote p {
+  text-align: center;
+}
+/* line 224, ../sass/_layout.scss */
+div#forbes-landing div.customers div.customer-quote div.quote-padding {
+  width: 305px;
+  height: 166px;
+  margin: auto;
+  line-height: 160%;
+  margin-top: 65px;
+}
+/* line 231, ../sass/_layout.scss */
+div#forbes-landing div.customers div.customer-quote div.quote-padding p.quote-text {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+/* line 238, ../sass/_layout.scss */
+div#forbes-landing div.customers div.customer-quote p.title {
+  font-size: 13px;
+  margin-top: 7px;
+}
+/* line 243, ../sass/_layout.scss */
+div#forbes-landing div.customers div.customer-quote h4 {
+  margin-top: 73px;
+  color: #c32026;
+}
+/* line 248, ../sass/_layout.scss */
+div#forbes-landing div.customers div.customer-quote h4.quoter-large {
+  margin-top: 155px;
+}
+/* line 252, ../sass/_layout.scss */
+div#forbes-landing div.customers div.customer-quote h4.quoter-medium {
+  margin-top: 93px;
+}
+/* line 257, ../sass/_layout.scss */
+div#forbes-landing div.customers div.quote-small {
+  background: url("../img/quote-small.png") no-repeat;
+}
+/* line 261, ../sass/_layout.scss */
+div#forbes-landing div.customers div.quote-medium {
+  background: url("../img/quote-medium.png") no-repeat;
+}
+/* line 265, ../sass/_layout.scss */
+div#forbes-landing div.customers div.quote-large {
+  background: url("../img/quote-large.png") no-repeat;
+}
+/* line 269, ../sass/_layout.scss */
+div#forbes-landing div.customers div.quote-space {
+  margin-right: 1px;
+}
+/* line 275, ../sass/_layout.scss */
+div#forbes-landing div.three-take-aways {
+  background-color: #f7f8fa;
+  height: 701px;
+}
+/* line 279, ../sass/_layout.scss */
+div#forbes-landing div.three-take-aways h2 {
+  text-align: center;
+  padding-top: 57px;
+}
+/* line 284, ../sass/_layout.scss */
+div#forbes-landing div.three-take-aways div.red-line {
+  margin: auto;
+  margin-top: 3px;
+  border-bottom: 1px solid #0199e6;
+}
+/* line 290, ../sass/_layout.scss */
+div#forbes-landing div.three-take-aways h3 {
+  text-align: center;
+  margin-top: 15px;
+}
+/* line 295, ../sass/_layout.scss */
+div#forbes-landing div.three-take-aways img {
+  margin: auto;
+  display: block;
+  margin-top: 79px;
+}
+/* line 302, ../sass/_layout.scss */
+div#forbes-landing div.bottom-banner {
+  background-image: url("../img/bottom-banner.jpg");
+  width: 100%;
+  height: 450px;
+  margin-top: 234px;
+}
+/* line 308, ../sass/_layout.scss */
+div#forbes-landing div.bottom-banner p, div#forbes-landing div.bottom-banner h2 {
+  color: white;
+  text-align: center;
+}
+/* line 313, ../sass/_layout.scss */
+div#forbes-landing div.bottom-banner p {
+  padding-top: 138px;
+}
+/* line 317, ../sass/_layout.scss */
+div#forbes-landing div.bottom-banner h2 {
+  margin-top: 24px;
+}
+/* line 322, ../sass/_layout.scss */
+div#forbes-landing div.footer {
+  margin-top: 22px;
+  padding-bottom: 100px;
+}
+/* line 326, ../sass/_layout.scss */
+div#forbes-landing div.footer p {
+  font-size: 16px;
+  display: inline;
+  color: #919191;
+  float: left;
+}
+/* line 333, ../sass/_layout.scss */
+div#forbes-landing div.footer ul {
+  display: inline;
+  float: right;
+}
+/* line 337, ../sass/_layout.scss */
+div#forbes-landing div.footer ul li {
+  display: inline;
+}
+/* line 340, ../sass/_layout.scss */
+div#forbes-landing div.footer ul li p {
+  margin-left: 26px;
+}

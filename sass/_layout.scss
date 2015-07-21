@@ -1,0 +1,349 @@
+// Forbes landing page
+
+div#forbes-landing {
+	width: 1920px;
+	height: 100%;
+	background-color: white;
+	margin: auto;
+
+	div.content {
+		width: 1142px;
+		margin: auto;
+	}
+
+	h1, h2, h3, h4, p, li {
+		font-family: $lato;
+	}
+
+	h1 {
+		font-size: 45px;
+		font-weight: 700
+	}
+
+	h2 {
+		font-size: 35px;
+		font-weight: 700;
+	}
+
+	h3 {
+		font-size: 17px;
+		font-weight: 400;
+	}
+
+	h4 {
+		font-size: 16px;
+		font-weight: 700;
+	}
+
+
+
+	p {
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	div.red-line {
+		height: 18px;
+		width: 68px;
+		border-bottom: 1px solid $idna-red;
+	}
+
+	div.email-form {
+		height: 109px;
+		width: 1082px;
+		margin: auto;
+		margin-top: 60px;
+		background:rgba(0,0,0,0.5);
+
+		div.form-box {
+			height: 58px;
+			width: 225px;
+			border: 2px solid $idna-maroon;
+			border-radius: 5px;
+			border-left: 4px solid $idna-red;
+			margin: 24px 0 0 22px;
+			display: inline-block;
+		}
+
+		div.red-button {
+			height: 39px;
+			width: 269px;
+			background-color: $idna-red;
+			border-radius: 5px;
+			display: inline-block;
+			margin: 24px 22px 0 0;
+			float: right;
+			text-align: center;
+			padding-top: 23px;
+			font-family: $lato;
+			font-size: 17px;
+			font-weight: 700;
+			color: white;
+		}
+	}
+
+
+	div.top-banner {
+		background-image: url("../img/top-banner.jpg");
+		width: 100%;
+		height: 750px;
+
+		div.content {
+			img {
+				margin-top: 30px;
+				float: left;
+			}
+
+			ul {
+				li {
+					float: right;
+					color: white;
+					font-weight: 700px;
+					font-size: 16px;
+					margin: 49px 0 0 25px;
+				}
+			}
+
+			h1 {
+				color: white;
+				clear: both;
+				text-align: center;
+				padding-top: 161px;
+
+				span {
+					color: $idna-red;
+				}
+			}
+
+			p {
+				color: white;
+				text-align: center;
+				margin-top: 37px;
+			}
+
+			p.line-2 {
+				margin-top: 10px;
+			}
+
+			div.signup-paragraph {
+				margin-top: 24px;
+
+				p {
+					font-size: 20px;
+					weight: 400;
+					font-style: italic;
+					margin-top: 9px;
+				}
+			}
+		}
+	}
+
+	div.research {
+		background-color: $banner-gray;
+		height: 582px;
+		width: 100%;
+
+		div.research-list {
+			width: 381px;
+			float: left;
+
+			h2.h2-top {
+				margin-top: 87px;
+			}
+
+			h2.h2-bottom {
+				margin-top: 8px;
+			}
+
+			ul {
+				margin: 46px 0 0 2px;
+
+				li {
+					clear: both;
+
+					img {
+						float: left;
+						margin: 0;
+					}
+					div {
+						float: left;
+						margin: -3px 0 0 18px;
+
+						h4, p {
+							font-size: 16px;
+							margin: 0;
+						}
+
+						p {
+							margin: 17px 0 58px 0;
+						}
+					}
+
+				}
+			}
+		}
+
+		img {
+			margin: 111px 0 0 131px;
+		}
+	}
+
+	div.customers {
+		height: 911px;
+
+		h2 {
+			text-align: center;
+			margin-top: 78px;
+		}
+
+		div.red-line {
+			margin: auto;
+		}
+
+		h3 {
+			text-align: center;
+			margin-top: 17px;
+		}
+
+		img {
+			display: block;
+			margin: auto;
+			margin-top: 50px;
+		}
+
+		div.customer-quote {
+			height: 425px;
+			width: 380px;
+			float: left;
+			margin-top: 72px;
+
+			h4, p {
+				text-align: center;
+			}
+
+			div.quote-padding {
+		    width: 305px;
+		    height: 166px;
+		    margin: auto;
+		    line-height: 160%;
+		    margin-top: 65px;
+
+				p.quote-text {
+					font-family: $lato;
+					font-size: 16px;
+					font-style: italic;
+				}
+			}
+
+			p.title {
+				font-size: 13px;
+				margin-top: 7px;
+			}
+
+			h4 {
+				margin-top: 73px;
+				color: $idna-red;
+			}
+
+			h4.quoter-large {
+				margin-top: 155px;
+			}
+
+			h4.quoter-medium {
+				margin-top: 93px;
+			}
+		}
+
+		div.quote-small {
+			background: url("../img/quote-small.png") no-repeat;
+		}
+
+		div.quote-medium {
+			background: url("../img/quote-medium.png") no-repeat;
+		}
+
+		div.quote-large {
+			background: url("../img/quote-large.png") no-repeat;
+		}
+
+		div.quote-space {
+			margin-right: 1px;
+		}
+
+	}
+
+	div.three-take-aways {
+		background-color: $banner-gray;
+		height: 701px;
+
+		h2 {
+			text-align: center;
+			padding-top: 57px;
+		}
+
+		div.red-line {
+			margin: auto;
+			margin-top: 3px;
+			border-bottom: 1px solid $idna-teal;
+		}
+
+		h3 {
+			text-align: center;
+			margin-top: 15px;
+		}
+
+		img {
+			margin: auto;
+	    display: block;
+	    margin-top: 79px;
+		}
+	}
+
+	div.bottom-banner {
+		background-image: url("../img/bottom-banner.jpg");
+		width: 100%;
+		height: 450px;
+		margin-top: 234px;
+
+		p, h2 {
+			color: white;
+			text-align: center;
+		}
+
+		p {
+			padding-top: 138px;
+		}
+
+		h2 {
+			margin-top: 24px;
+		}
+	}
+
+	div.footer {
+		margin-top: 22px;
+		padding-bottom: 100px;
+
+		p {
+			font-size: 16px;
+			display: inline;
+			color: $footer-gray;
+			float: left;
+		}
+
+		ul {
+			display: inline;
+			float: right;
+
+			li {
+				display: inline;
+
+				p {
+					margin-left: 26px;
+				}
+			}
+		}
+	}
+}
+
+
+
