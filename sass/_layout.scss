@@ -1,15 +1,6 @@
 // Forbes landing page
 
 div#forbes-landing {
-	width: 1920px;
-	height: 100%;
-	background-color: white;
-	margin: auto;
-
-	div.content {
-		width: 1142px;
-		margin: auto;
-	}
 
 	h1, h2, h3, h4, p, li {
 		font-family: $lato;
@@ -35,9 +26,7 @@ div#forbes-landing {
 		font-weight: 700;
 	}
 
-
-
-	p {
+	p, a {
 		font-size: 20px;
 		font-weight: 400;
 	}
@@ -48,298 +37,102 @@ div#forbes-landing {
 		border-bottom: 1px solid $idna-red;
 	}
 
-	div.email-form {
-		height: 109px;
-		width: 1082px;
-		margin: auto;
-		margin-top: 60px;
-		background:rgba(0,0,0,0.5);
+	div.jumbotron {
+		background-image: url(../img/top-banner.jpg);
 
-		div.form-box {
-			height: 58px;
-			width: 225px;
-			border: 2px solid $idna-maroon;
-			border-radius: 5px;
-			border-left: 4px solid $idna-red;
-			margin: 24px 0 0 22px;
-			display: inline-block;
-		}
+		nav.navbar {
+			a.navbar-brand {
+				padding: 0;
+				}
 
-		div.red-button {
-			height: 39px;
-			width: 269px;
-			background-color: $idna-red;
-			border-radius: 5px;
-			display: inline-block;
-			margin: 24px 22px 0 0;
-			float: right;
-			text-align: center;
-			padding-top: 23px;
-			font-family: $lato;
-			font-size: 17px;
-			font-weight: 700;
-			color: white;
-		}
-	}
-
-
-	div.top-banner {
-		background-image: url("../img/top-banner.jpg");
-		width: 100%;
-		height: 750px;
-
-		div.content {
-			img {
-				margin-top: 30px;
-				float: left;
-			}
-
-			ul {
+			ul.nav {
 				li {
-					float: right;
-					color: white;
-					font-weight: 700px;
-					font-size: 16px;
-					margin: 49px 0 0 25px;
+					a {
+						color: white;
+					}
 				}
 			}
+		}
 
-			h1 {
+		div.jumbotron-text {
+			margin-top: 125px;
+
+			h1, p {
 				color: white;
-				clear: both;
 				text-align: center;
-				padding-top: 161px;
-
-				span {
-					color: $idna-red;
-				}
 			}
 
 			p {
-				color: white;
-				text-align: center;
-				margin-top: 37px;
+				margin-top: 39px;
 			}
 
-			p.line-2 {
-				margin-top: 10px;
+			span {
+				color: $idna-red;
 			}
+		}
 
-			div.signup-paragraph {
-				margin-top: 24px;
+		div.email-form {
+			div.background {
+				background:rgba(0,0,0,0.5);
+				padding: 24px 0;
 
-				p {
+				form.form-inline {
+					text-align: center;
+
+					div.form-group {
+						input.form-control {
+							height: 58px;
+							width: 225px;
+							border: 2px solid $idna-maroon;
+							border-radius: 5px;
+							border-left: 4px solid $idna-red;
+							margin: 0 11px;
+							background-color: black;
+							color: white;
+						}
+
+						@include breakpoint(tablet) {
+							input.form-control {
+								width: 100%;
+								margin: 0;
+							}
+						}
+
+						form.left-field {
+							margin-left: 0;
+						}
+					}
+
+					button.red-button {
+						height: 58px;
+						width: 225px;
+						background-color: $idna-red;
+						border-radius: 5px;
+						font-family: $lato;
+						font-size: 17px;
+						font-weight: 700;
+						color: white;
+						margin: 0 11px;
+						border: none;
+					}
+
+					button.red-button:hover {
+						-moz-box-shadow: inset 0 0 10px #000000;
+						-webkit-box-shadow: inset 0 0 10px #000000;
+						box-shadow: inset 0 0 10px #000000;
+					}
+				}
+			}
+		}
+
+		div.signup-text {
+			p {
 					font-size: 20px;
 					weight: 400;
 					font-style: italic;
-					margin-top: 9px;
-				}
-			}
-		}
-	}
-
-	div.research {
-		background-color: $banner-gray;
-		height: 582px;
-		width: 100%;
-
-		div.research-list {
-			width: 381px;
-			float: left;
-
-			h2.h2-top {
-				margin-top: 87px;
-			}
-
-			h2.h2-bottom {
-				margin-top: 8px;
-			}
-
-			ul {
-				margin: 46px 0 0 2px;
-
-				li {
-					clear: both;
-
-					img {
-						float: left;
-						margin: 0;
-					}
-					div {
-						float: left;
-						margin: -3px 0 0 18px;
-
-						h4, p {
-							font-size: 16px;
-							margin: 0;
-						}
-
-						p {
-							margin: 17px 0 58px 0;
-						}
-					}
-
-				}
-			}
-		}
-
-		img {
-			margin: 111px 0 0 131px;
-		}
-	}
-
-	div.customers {
-		height: 911px;
-
-		h2 {
-			text-align: center;
-			margin-top: 78px;
-		}
-
-		div.red-line {
-			margin: auto;
-		}
-
-		h3 {
-			text-align: center;
-			margin-top: 17px;
-		}
-
-		img {
-			display: block;
-			margin: auto;
-			margin-top: 50px;
-		}
-
-		div.customer-quote {
-			height: 425px;
-			width: 380px;
-			float: left;
-			margin-top: 72px;
-
-			h4, p {
-				text-align: center;
-			}
-
-			div.quote-padding {
-		    width: 305px;
-		    height: 166px;
-		    margin: auto;
-		    line-height: 160%;
-		    margin-top: 65px;
-
-				p.quote-text {
-					font-family: $lato;
-					font-size: 16px;
-					font-style: italic;
-				}
-			}
-
-			p.title {
-				font-size: 13px;
-				margin-top: 7px;
-			}
-
-			h4 {
-				margin-top: 73px;
-				color: $idna-red;
-			}
-
-			h4.quoter-large {
-				margin-top: 155px;
-			}
-
-			h4.quoter-medium {
-				margin-top: 93px;
-			}
-		}
-
-		div.quote-small {
-			background: url("../img/quote-small.png") no-repeat;
-		}
-
-		div.quote-medium {
-			background: url("../img/quote-medium.png") no-repeat;
-		}
-
-		div.quote-large {
-			background: url("../img/quote-large.png") no-repeat;
-		}
-
-		div.quote-space {
-			margin-right: 1px;
-		}
-
-	}
-
-	div.three-take-aways {
-		background-color: $banner-gray;
-		height: 701px;
-
-		h2 {
-			text-align: center;
-			padding-top: 57px;
-		}
-
-		div.red-line {
-			margin: auto;
-			margin-top: 3px;
-			border-bottom: 1px solid $idna-teal;
-		}
-
-		h3 {
-			text-align: center;
-			margin-top: 15px;
-		}
-
-		img {
-			margin: auto;
-	    display: block;
-	    margin-top: 79px;
-		}
-	}
-
-	div.bottom-banner {
-		background-image: url("../img/bottom-banner.jpg");
-		width: 100%;
-		height: 450px;
-		margin-top: 234px;
-
-		p, h2 {
-			color: white;
-			text-align: center;
-		}
-
-		p {
-			padding-top: 138px;
-		}
-
-		h2 {
-			margin-top: 24px;
-		}
-	}
-
-	div.footer {
-		margin-top: 22px;
-		padding-bottom: 100px;
-
-		p {
-			font-size: 16px;
-			display: inline;
-			color: $footer-gray;
-			float: left;
-		}
-
-		ul {
-			display: inline;
-			float: right;
-
-			li {
-				display: inline;
-
-				p {
-					margin-left: 26px;
-				}
+					margin-top: 13px;
+					color: white;
+					text-align: center;
 			}
 		}
 	}

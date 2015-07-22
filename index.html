@@ -1,50 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Website</title>
+	<title>iDNA</title>
 
 	<link href="img/favicon.png" type="img/png" rel="icon">
 	<link href="css/reset.css" type="text/css" rel="stylesheet">
 	<link href="css/main.css" type="text/css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
 </head>
 <body>
 
 	<div id="forbes-landing">
-		<div class="top-banner">
-			<div class="content">
-				<img src="img/idna-logo.png">
+		<div class="jumbotron">
+				<nav class="navbar transparent navbar-default">
+				  <div class="container-fluid">
+				  	<div class="row">
+				  		<div class="col-xs-10 col-xs-offset-1">
+								<div class="navbar-header">
+						      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+						        <span class="sr-only">Toggle navigation</span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						        <span class="icon-bar"></span>
+						      </button>
+						      <a class="navbar-brand" href="#"><img src="img/idna-logo.png"></a>
+						    </div>
 
-				<ul>
-					<li>NEWS</li>
-					<li>CONTACT</li>
-					<li>ASSESSMENT</li>
-					<li>OFFERINGS</li>
-					<li>ABOUT</li>
-				</ul>
-				<h1>We <span>Help</span> Companies Innovate</h1>
-				<p>Our software assesses and develops innovation capabilities </p>
-				<p class="line-2">for both individuals and organizations.</p>
-				<div class="email-form-background">
-					<div class="email-form">
-						<div class="form-box"></div>
-						<div class="form-box"></div>
-						<div class="form-box"></div>
-						<div class="red-button">DOWNLOAD FREE REPORT</div>
+						    <!-- Collect the nav links, forms, and other content for toggling -->
+						    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						      <ul class="nav navbar-nav navbar-right">
+						        <li><a href="#">NEWS</a></li>
+						        <li><a href="#">CONTACT</a></li>
+						        <li><a href="#">ASSESSMENT</a></li>
+						        <li><a href="#">OFFERINGS</a></li>
+						        <li><a href="#">ABOUT</a></li>
+						      </ul>
+						    </div><!-- /.navbar-collapse -->
+				  		</div>
+				  	</div>
+				  </div><!-- /.container-fluid -->
+				</nav>
+
+				<div class="row jumbotron-text">
+					<div class="col-xs-10 col-xs-offset-1">
+						<h1>We <span>Help</span> Companies Innovate</h1>
+						<p>Our software assesses and develops innovation capabilities for both individuals and organizations.</p>
 					</div>
 				</div>
-				<div class="signup-paragraph">
-					<p>Sign up for our blog to preview our Innovator's DNA Assessment and see how it can help you become a world-class innovator. </p>
-					<p> We'll get you started with our online tools to begin learning and practicing key innovation behaviors today.</p>
+
+				<div class="row email-form">
+					<div class="col-xs-10 col-xs-offset-1 background">
+						<form class="form-inline">
+						    <div class="form-group">
+						        <label class="sr-only" for="inputName">Name</label>
+						        <input type="text" class="form-control left-field" id="inputName" placeholder="Name">
+						    </div>
+						    <div class="form-group">
+						        <label class="sr-only" for="inputEmail">Email</label>
+						        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+						    </div>
+						    <div class="form-group">
+						        <label class="sr-only" for="inputCompany">Company</label>
+						        <input type="text" class="form-control" id="inputCompany" placeholder="Company">
+						    </div>
+						    <button type="submit" class="btn btn-primary red-button">Download Free Report</button>
+						</form>
+					</div>
+
+					<div class="row signup-text">
+						<div class="col-xs-10 col-xs-offset-1">
+							<p>Sign up for our blog to preview our Innovator's DNA Assessment and see how it can help you become a world-class innovator. We'll get you started with our online tools to begin learning and practicing key innovation behaviors today.</p>
+						</div>
+					</div>
+
 				</div>
 			</div>
 		</div>
 
-		<div class="research">
-			<div class="content">
-				<div class="research-list">
+
+		<div class="row">
+			<div class="col-xs-4 col-xs-offset-1 research-list">
 					<h2 class="h2-top">Research Behind our</h2>
 					<h2 class="h2-bottom">Software &amp; Services</h2>
 					<div class="red-line"></div>
@@ -71,13 +110,14 @@
 							</div>
 						</li>
 					</ul>
-				</div>
-
+			</div>
+			<div class="col-xs-6">
 				<img src="img/macbook.png">
 			</div>
 		</div>
 
-		<div class="customers">
+
+		<!-- <div class="customers">
 			<div class="content">
 				<h2>Our Customers</h2>
 				<div class="red-line"></div>
@@ -105,18 +145,18 @@
 					<p class="title">CEO, Magellan Health</p>
 				</div>
 			</div>
-		</div>
+		</div> -->
 
-		<div class="three-take-aways">
+		<!-- <div class="three-take-aways">
 			<div class="content">
 				<h2>Three Take-aways from The Innovator&#39;s Method</h2>
 				<div class="red-line"></div>
 				<h3>Watch Jeff Dyer Introduce The Innovator&#39;s Method</h3>
 				<img src="img/video-image.jpg">
 			</div>
-		</div>
+		</div> -->
 
-		<div class="bottom-banner">
+		<!-- <div class="bottom-banner">
 			<p>We Are Ready to Help You</p>
 			<h2>Sign Up for our Blog and Receive a Free Innovator&#39;s DNA Self Assessment.</h2>
 			<div class="email-form">
@@ -125,9 +165,9 @@
 				<div class="form-box"></div>
 				<div class="red-button">DOWNLOAD FREE REPORT</div>
 			</div>
-		</div>
+		</div> -->
 
-		<div class="footer">
+		<!-- <div class="footer">
 			<div class="content">
 				<p>&copy; 2015 The Innovator&#39;s DNA</p>
 				<ul>
@@ -138,12 +178,14 @@
 					<li><p>NEWS</p></li>
 				</ul>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 	<script src="js/jquery-2.1.3.min.js"></script>
 	<script src="js/jquery-ui-1.11.4.min.js"></script>
 	<script src="js/main.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 
 </body>
 </html>
