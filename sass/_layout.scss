@@ -1,6 +1,8 @@
 // Forbes landing page
 
 div#forbes-landing {
+	max-width: 1920px;
+	margin: auto;
 
 	h1, h2, h3, h4, p, li {
 		font-family: $lato;
@@ -38,8 +40,6 @@ div#forbes-landing {
 	}
 
 	div.jumbotron {
-		background-image: url(../img/top-banner.jpg);
-
 		nav.navbar {
 			a.navbar-brand {
 				padding: 0;
@@ -105,7 +105,7 @@ div#forbes-landing {
 
 					button.red-button {
 						height: 58px;
-						width: 225px;
+						// width: 225px;
 						background-color: $idna-red;
 						border-radius: 5px;
 						font-family: $lato;
@@ -134,6 +134,219 @@ div#forbes-landing {
 					color: white;
 					text-align: center;
 			}
+		}
+	}
+
+	div.top-banner {
+		background-image: url(../img/top-banner.jpg);
+		margin-bottom: 0;
+	}
+
+	div.research {
+		background-color: $banner-gray;
+		width: 100%;
+
+		h2 {
+			font-weight: 400;
+			margin-top: 37px;
+			margin-bottom: 0;
+		}
+		ul {
+			li {
+				clear: both;
+
+				div.icon {
+					padding-top: 62px;
+				}
+
+				div.text {
+					padding-top: 40px;
+
+					h4, p {
+						font-size: 16px;
+					}
+				}
+			}
+		}
+		img.laptop-image {
+			width: 100%;
+			height: auto;
+			margin-top: 48px;
+			max-width: 630px;
+		}
+
+		@include breakpoint(phone) {
+			img.laptop-image {
+				display: none;
+			}
+		}
+	}
+
+	div.customers {
+		h2 {
+			text-align: center;
+			margin-top: 78px;
+		}
+
+		div.red-line {
+			margin: auto;
+		}
+
+		h3 {
+			text-align: center;
+			margin-top: 17px;
+		}
+
+		img.companies {
+			display: block;
+			margin: auto;
+			margin-top: 50px;
+			width: 100%;
+			max-width: 1013px;
+			height: auto;
+		}
+
+		div.quote-row {
+			margin-top: 40px;
+
+			div.customer-quote {
+				margin-top: 40px;
+
+				img {
+					z-index: 2;
+					position: absolute;
+					left: 45%;
+					top: -19px;
+				}
+
+				div.bubble {
+					position: relative;
+					padding: 0px;
+					background: $banner-gray;
+					-webkit-border-radius: 5px;
+					-moz-border-radius: 5px;
+					border-radius: 5px;
+					border-bottom: $outline-gray solid 1px;
+					padding: 35px 30px 20px 30px;
+
+					p {
+						font-style: italic;
+						font-size: 16px;
+						text-align: center;
+					}
+				}
+
+				div.bubble:after {
+					content: '';
+					position: absolute;
+					border-style: solid;
+					border-width: 15px 15px 0;
+					border-color: $banner-gray transparent;
+					display: block;
+					width: 0;
+					z-index: 1;
+					bottom: -15px;
+					left: 45%;
+				}
+
+				div.bubble:before {
+					content: '';
+					position: absolute;
+					border-style: solid;
+					border-width: 15px 15px 0;
+					border-color: $outline-gray transparent;
+					display: block;
+					width: 0;
+					z-index: 0;
+					bottom: -16px;
+					left: 45%;
+				}
+
+				h4 {
+					color: $idna-red;
+					text-align: center;
+					margin-top: 22px;
+				}
+
+				p.title {
+					font-size: 13px;
+					text-align: center;
+				}
+			}
+		}
+
+
+
+
+
+
+
+	}
+
+	div.three-take-aways {
+		background-color: $banner-gray;
+		margin-top: 75px;
+		max-height: 701px;
+
+		h2 {
+			text-align: center;
+			padding-top: 57px;
+		}
+
+		div.red-line {
+			margin: auto;
+			margin-top: 3px;
+			border-bottom: 1px solid $idna-teal;
+		}
+
+		h3 {
+			text-align: center;
+			margin-top: 15px;
+		}
+
+		img {
+			max-width: 945px;
+			width: 100%;
+			height: auto;
+			margin: auto;
+	    display: block;
+	    margin-top: 79px;
+		}
+	}
+
+	div.bottom-banner {
+		background-image: url(../img/bottom-banner.jpg);
+		margin-top: 261px;
+
+		h2, p {
+			text-align: center;
+			color: white;
+		}
+
+		p {
+			margin-top: 86px;
+		}
+
+		div.email-form {
+			margin-top: 40px;
+
+			div.background {
+				margin-bottom: 36px;
+			}
+		}
+	}
+
+	nav.footer {
+		a {
+			font-size: 16px;
+			font-weight: 400;
+			color: $footer-gray;
+			text-decoration: none;
+		}
+
+		a:hover, a:focus {
+    background-color: white;
+    color: $outline-gray;
 		}
 	}
 }
